@@ -1,0 +1,8 @@
+{
+  "id": "contentful-extension-link-field",
+  "name": "Link Field",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": [
+    "Object"
+  ]
+}
