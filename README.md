@@ -26,11 +26,11 @@ For external links, it looks like this:
 
 ## Installation
 
-In your Contentful space, go to Settings > Extensions, then select Add Extension > Install from GitHub. In the dialog that opens, paste the URL of the repository: `https://github.com/ueno-llc/contentful-extension-link-field`
+In your Contentful space, go to Settings > Extensions, then select Add Extension > Install from GitHub. In the dialog that opens, paste this URL: `https://github.com/ueno-llc/contentful-extension-link-field/blob/master/extension.json`
 
 ## Usage
 
-To add a link field, create a JSON field, and under the Appearance tab, select "Link Field".
+To add a link field, create a JSON Object field, and under the Appearance tab, select "Link Field".
 
 ## Local Development
 
@@ -49,6 +49,8 @@ npm run configure
 # Compile extension
 npm start
 ```
+
+Before you commit your changes, run `npm run build`. Contentful loads the extension code directly from GitHub, so the file `build/index.html` needs to be up to date.
 
 ## License
 
